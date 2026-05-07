@@ -352,9 +352,14 @@ st.markdown("""
 # Load model and scaler
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load('assets/model/fraud_model.pkl')
-    scaler = joblib.load('assets/model/scaler.pkl')
-    with open('assets/model/model_config.json', 'r') as f:
+    base_dir = Path(__file__).resolve().parent
+    model_file = base_dir / 'assets' / 'model' / 'fraud_model.pkl'
+    scaler_file = base_dir / 'assets' / 'model' / 'scaler.pkl'
+    config_file = base_dir / 'assets' / 'model' / 'model_config.json'
+
+    model = joblib.load(model_file)
+    scaler = joblib.load(scaler_file)
+    with open(config_file, 'r') as f:
         config = json.load(f)
     return model, scaler, config
 
