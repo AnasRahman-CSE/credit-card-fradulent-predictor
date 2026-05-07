@@ -9,7 +9,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.24-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.17-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://fradulent-credit-card-predictor.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://credit-card-fradulent-predictor-po72mksnfpdmhby7ttenyy.streamlit.app/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 ---
@@ -49,7 +49,7 @@ streamlit run app.py
 
 **Access Application:** http://localhost:8501
 
-**Live App:** [https://fradulent-credit-card-predictor.streamlit.app/](https://fradulent-credit-card-predictor.streamlit.app/)
+**Live App:** [https://credit-card-fradulent-predictor-po72mksnfpdmhby7ttenyy.streamlit.app/](https://credit-card-fradulent-predictor-po72mksnfpdmhby7ttenyy.streamlit.app/)
 
 ---
 
@@ -69,7 +69,7 @@ streamlit run app.py
 
 3. **Live URL**
    ```
-   https://fradulent-credit-card-predictor.streamlit.app/
+   https://credit-card-fradulent-predictor-po72mksnfpdmhby7ttenyy.streamlit.app/
    ```
 
 **Deployment Time:** First deployment 2-3 min, subsequent updates 1-2 min
